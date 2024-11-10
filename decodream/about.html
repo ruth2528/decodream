@@ -1,0 +1,140 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-900 text-white font-sans min-h-screen flex flex-col">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-4">
+                    <!-- Logo -->
+                    <div>
+                        <a href="#" class="flex items-center py-5 px-2 text-gray-300">
+                            <span class="font-bold text-xl ml-2">DecoDream</span>
+                        </a>
+                    </div>
+                    <!-- Primary Nav -->
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="index.html" class="py-5 px-3 text-gray-300 hover:text-white">Home</a>
+                        <a href="#" class="py-5 px-3 text-gray-300 hover:text-white">About</a>
+                        <a href="#" class="py-5 px-3 text-gray-300 hover:text-white">Contact</a>
+                    </div>
+                </div>
+                <!-- Secondary Nav -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="login.html" class="py-5 px-3 text-gray-300 hover:text-white">Login</a>
+                    <a href="signup.html" class="py-2 px-3 bg-gray-700 text-white rounded hover:bg-gray-600">Sign Up</a>
+                </div>
+                <!-- Mobile Button -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-gray-300"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <section class="mb-12 bg-gray-800 p-6 rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">About Decodream</h2>
+                    <p class="text-lg mb-4">Welcome to Decodream! We’re on a mission to transform spaces into unique expressions of style, comfort, and functionality. At Decodream, we believe in the power of design to inspire, uplift, and bring dreams to life through thoughtful interiors that speak to our clients' tastes and lifestyles.</p>
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/SifQBf2eCZb3CpkMakB1Nw4xCQIIvA4sZejI18CHqvKFPVedC.jpg" alt="A beautifully designed interior space by Decodream" class="rounded-lg" height="400" width="400">
+                </div>
+            </div>
+        </section>
+        <section class="mb-12 bg-gray-700 p-6 rounded-lg">
+            <h2 class="text-3xl font-bold mb-4">How to Use Decodream</h2>
+            <ul class="list-disc list-inside text-lg mb-4">
+                <li class="mb-2">Upload your 2D blueprint or layout, and we’ll generate a 3D model that you can explore.</li>
+                <li class="mb-2">Use our platform’s customization tools to adjust layouts, materials, colors, and lighting in real-time. Our design team is available for feedback and revisions until you’re satisfied with the final look.</li>
+                <li class="mb-2">If you have questions or need guidance, check out our chatbot. Our bot is here to help you through each step, answer any questions, and ensure your design experience is smooth and enjoyable.</li>
+            </ul>
+        </section>
+        <section class="mb-12 bg-gray-500 p-6 rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/ky18rGXi1n7EMZof8fs53uyTfUYBuXMubUzx2d9OpBdknKfOB.jpg" alt="2D blueprint example" class="rounded-lg" height="400" width="400">
+                </div>
+                <div>
+                    <img src="https://storage.googleapis.com/a1aa/image/LnJnD2RFX06pKJwxwyMTlvWHPV7KL9efjeq9mPRLXkOeOVedC.jpg" alt="3D model example" class="rounded-lg" height="400" width="400">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
+            <div class="md:col-span-2">
+                <h2 class="text-lg font-bold">DECODREAM</h2>
+                <p class="mt-2 text-sm">Convert your blueprints to reality</p>
+                <div class="mt-4">
+                    <label for="email" class="block text-sm font-bold">EMAIL</label>
+                    <input type="email" id="email" class="mt-1 block w-full border-b-2 border-white bg-gray-900 text-white focus:outline-none focus:border-white">
+                    <button class="mt-2 text-sm font-bold">SEND</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-sm font-bold">TEAM</h3>
+                <ul class="mt-2 space-y-1 text-sm">
+                    <li></li>
+                    <li>ANN SUSAN ABRAHAM</li>
+                    <li>DIVYA MARY FRANCIS</li>
+                    <li>GAYATHRI KRISHNAN</li>
+                    <li>RUTH SUSAN ISSACC</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-sm font-bold">ABOUT</h3>
+                <ul class="mt-2 space-y-1 text-sm">
+                    <li>WHO WE ARE</li>
+                    <li>OUR FOUNDER</li>
+                    <li>OUR MISSION</li>
+                    <li>ABOUT US</li>
+                    <li>CONTACT US</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-sm font-bold">REGION</h3>
+                <ul class="mt-2 space-y-1 text-sm">
+                    <li><span class="border border-white px-2 py-1">USA</span></li>
+                    <li>CAN</li>
+                    <li>UK</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-sm font-bold">HELP</h3>
+                <ul class="mt-2 space-y-1 text-sm">
+                    <li>CUSTOMISE</li>
+                    <li>ACCOUNT</li>
+                    <li>DASHBOARDS</li>
+                    <li>FAQ</li>
+                    <li>CHATBOT</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-sm font-bold">CONTACT</h3>
+                <ul class="mt-2 space-y-1 text-sm">
+                    <li>info@decodream.com</li>
+                    <li>929 266 2100</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-12 border-t border-white pt-4">
+            <p class="text-xs text-center">Copyright 2024 DecoDream! By Group 5, LLC. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-2 text-xs">
+                <a href="#" class="hover:underline">Privacy Policy</a>
+                <a href="#" class="hover:underline">Terms of Use</a>
+                <a href="#" class="hover:underline">My Privacy Choices</a>
+                <a href="#" class="hover:underline">Accessibility</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
